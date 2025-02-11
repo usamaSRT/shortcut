@@ -44,3 +44,8 @@ th:nth-child(2){
 #name p{
     margin: 0;
 }
+@media(max-width:499px){
+    h1{
+        font-size: 22px;
+    }
+}
