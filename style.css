@@ -1,0 +1,46 @@
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color: #FFC0CB60;
+}
+th:nth-child(1){
+    width: 200px;
+}
+th:nth-child(2){
+    width: 400px;
+}
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000000;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFFF0080;
+    height: 100px;
+    justify-content: center;
+    margin-top: 40px;
+    border-top: 1px solid #000000;
+}
+#name p{
+    margin: 0;
+}
